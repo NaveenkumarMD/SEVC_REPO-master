@@ -1,0 +1,27 @@
+.footer{
+    background-color: var(--primaryGreen);
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5vw;
+    gap: 30px;
+}
+.mail-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.contacts>a{
+    color:var(--backgroundColor);
+    font-weight: 500;
+}
+.social-icons{
+    cursor: pointer;
+}

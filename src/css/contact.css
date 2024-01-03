@@ -1,0 +1,128 @@
+.contact-main{
+    background-color: var(--backgroundColor);
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.contact-container{
+    max-width: 60vw;
+    margin: 10vh auto;
+}
+.contact-title{
+    text-transform: capitalize;
+    font-size: 35px;  
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--primaryGreen); 
+ 
+}
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width:60vw ;
+}
+.contact-form>.input-container{
+    width:45%;
+    margin: 10px 0; 
+}
+.input-container,.input-containerx>label{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 40px;
+}
+
+.input-container>input,.input-containerx>.input,.input-container>select,.input-containerx>select{
+    width: 100%;
+    background-color: #1e2323;
+    outline: none;
+    border: none;
+    height: 40px;
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+    letter-spacing: 0.7px;
+}
+.input-container>select{
+    padding:0px !important;
+    padding-left: 20px !important;
+}
+.input-container>input:focus,.input-container>select:focus{
+    outline: none;
+    border: none;
+}
+.input-container>input::placeholder{
+    color: rgb(99, 104, 108);
+}
+.input-containerx{
+    width: 95%;
+    margin-top: 10px;
+}
+.event-select{
+    width: 95% !important;
+}
+.input-containerx>textarea{
+    width: 100%;
+    background-color: #1e2323;
+    outline: none;
+    border: none;
+    height: 200px;
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+}
+.query-btn{
+    background-color: var(--primaryGreen);
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 3%;
+    border-radius: 4px;
+    cursor: pointer;
+
+    color: var(--backgroundColor);
+}
+.text3{
+    text-align: left;
+    width: 100%;
+    margin:30px 30px 30px 20px;
+    font-size: 20px;
+    color: var(--primaryGreen);
+    font-weight: 500;
+}
+.add-member-btn{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primaryGreen);
+    padding: 10px 30px;
+    font-size: 16px;
+    color: var(--backgroundColor);
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px;
+
+}
+@media only screen and (max-width: 600px) {
+    .contact-container{
+        max-width: 90vw;
+    }
+    .contact-form{
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+    .contact-form>.input-container{
+        width: 100%;
+    }
+}

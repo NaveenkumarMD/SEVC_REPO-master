@@ -1,0 +1,123 @@
+.gallery{
+    background-color: var(--backgroundColor);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.swiper {
+    margin-top: 4%;
+    width:400px;
+    height:400px;
+
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .swiper-card{
+    display: flex !important;
+    width: 100%;
+    height: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .swiper-card>img{
+    width:auto;
+    height: 100%;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    background-color:#A9DE1E;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-color:#A9DE1E
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-color: #A9DE1E;
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-color: #A9DE1E
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-color: #A9DE1E
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    background-color: #A9DE1E
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-color: #A9DE1E
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    background-color: #A9DE1E
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    background-color: #A9DE1E
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    background-color: #A9DE1E
+  }
+  .card-description{
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .card-description>.title{
+    font-size: 20px;
+    color: var(--primaryGreen);
+    line-height: 30px;
+    font-weight: 600;
+
+  }
+  .card-description>.description{
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    font-weight: 00;
+    margin-top: 5px;
+  }
+  .gallery-container{
+    max-width: 90vw;
+    margin: 10vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .gallery-container>div{
+    width: 300px;
+  }
+  .gallery-container>div>img{
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+    border-radius: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .swiper {
+      margin-top: 10%;
+      width: 80%;
+      height:350px;
+  
+    }
+    .gallery-container{
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }

@@ -1,0 +1,75 @@
+.dashboard {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--backgroundColor);
+    padding: 10vh 0vh;
+
+}
+
+.dashboard-container {
+    max-width: 80vw;
+    margin: 0vh auto;
+}
+
+.dashboard-data {
+    max-width: 80%;
+    margin: 5vh auto;
+}
+
+.d-text1 {
+    font-size: 20px;
+    color: var(--primaryGreen);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.phase-desc {
+    margin: 40px auto;
+    color: white;
+}
+
+.desc {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+
+}
+
+.desc1 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.payment-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.qr{
+    width: 180px;
+    height: 180px;
+}
+.qr>img{
+    width: 100%;
+    height:100%
+}
+.input-file-container{
+    margin-top: 20px;
+    width: 100%;
+    margin: 10px;
+}
+.input-file-container>label{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+.input-file-container>input{
+    margin-top: 10px;
+    background-color:#1e2323;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+}   

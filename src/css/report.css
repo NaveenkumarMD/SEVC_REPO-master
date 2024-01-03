@@ -1,0 +1,39 @@
+.report{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 10vh;
+    background-color: var(--backgroundColor);
+
+ 
+}
+.report-container{
+    max-width: 70%;
+    margin: 0px auto;
+    padding: 0vh 0px;
+}
+.desc{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: white;
+}
+.file-add-container{
+    background-color: #303836;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+
+}
+.files-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+}

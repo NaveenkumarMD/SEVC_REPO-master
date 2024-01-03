@@ -1,0 +1,85 @@
+/* @import "~antd/dist/antd.css"; */
+
+@import "./css/antd.css";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand&family=Oswald&family=Teko&display=swap');
+
+
+@font-face {
+    font-family:zian;
+    src: url("assets/Fonts/Zian\ free\ promo.ttf") format("opentype");
+  }
+
+  .ant-layout-header{
+    padding: 0px 50px 0px 0px;
+  }
+:root {
+    --teko:'Teko', sans-serif;
+    --oswald:'Oswald', sans-serif;
+    --khand: 'Khand', sans-serif;
+    --primaryGreen: rgb(169 222 30);
+    --primaryBlack: #252D2B;
+    --backgroundColor: #252D2B;
+    --font-main:'Barlow Condensed', sans-serif;
+}
+
+body{
+    font-family: var(--khand);
+    letter-spacing: 0.4px;
+    font-weight: 900;
+}
+body::-webkit-scrollbar {
+    background-color: var(--primaryGreen);
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color:rgb(170, 173, 170);
+    width: 10px;
+    border-radius: 20px;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.ant-steps-item-icon{
+    color: var(--primaryGreen);
+    background-color: rgb(231, 230, 230) !important;
+}
+.ant-steps-icon{
+    color:black !important;
+}
+.ant-steps-item-title::after{
+    background-color: var(--primaryGreen) !important;
+}
+.ant-steps-item-title{
+    color: white !important;
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+    border:none !important;
+}
+.ant-steps-navigation .ant-steps-item::after{
+    border:2px solid rgb(255, 255, 255) !important;
+    border-left: none !important    ;
+    border-bottom: none !important;
+    margin-top: -10px !important;
+    margin-right: -20px !important;
+
+}
+.ant-steps-navigation .ant-steps-item.ant-steps-item-active::before{
+    background-color:var(--primaryGreen);
+
+    
+}
+.title-2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+}
+ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+    border-bottom: 5px solid #000000;
+}

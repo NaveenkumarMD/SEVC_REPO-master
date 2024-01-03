@@ -1,0 +1,160 @@
+.vision-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    margin: 70px auto;
+    
+}
+
+.title-1 {
+    font-size: 50px;
+    max-width: 260px;
+    font-weight: 600;
+    color: var(--primaryGreen);
+    text-transform: capitalize;
+    line-height: 70px;
+    
+}
+
+.container-mission {
+    display: flex;
+    max-width: 100%;
+    
+}
+
+.mission-title {
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--primaryGreen);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.mission-description {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    word-spacing: 6px;
+    letter-spacing: 0.7px;
+    text-align: justify;
+    font-family: var(--khand);
+}
+
+.mission-container {
+    max-width: 100%;
+    margin: 0 40px;
+}
+
+.mission-description>div:first-child {
+    margin: 20px 10px;
+}
+
+.mission-description>div:nth-child(2) {
+    margin: 0px 10px;
+}
+
+.about-main-container {
+    max-width: 70%;
+    margin: 100px auto;
+}
+
+.title-2 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: var(--primaryGreen);
+    font-weight: 500;
+}
+
+.about-description {
+    color: white;
+    word-spacing: 6px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 30px 20px;
+
+}
+
+.about-sub-container {
+    max-width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    /* gap: 50px; */
+}
+
+.img-about {
+    max-width: 30%;
+    height: auto;
+    background-color: rgb(209, 215, 213);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.img-about>img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-abt-text {
+    max-width: 50%;
+    margin: 50px 0px;
+}
+
+.container-abt-text>.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primaryGreen);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.container-abt-text>.description {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    word-spacing: 6px;
+    letter-spacing: 0.7px;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .vision-container{
+        max-width: 100%;
+        flex-direction: column;
+        
+    }
+    .mission-container{
+        max-width: 90%;
+    }
+    .container-mission{
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .mission-title{
+        margin-top: 30px;
+    }
+    .about-main-container{
+        max-width: 100%;
+    }
+    .about-sub-container{
+        max-width: 100%;
+        flex-direction: column;
+        margin:0px auto;
+}
+    .container-abt-text{
+        max-width: 80%;
+    }
+    .x2{
+        flex-direction: column-reverse;
+    }
+}

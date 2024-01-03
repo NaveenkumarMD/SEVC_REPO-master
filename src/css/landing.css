@@ -1,0 +1,42 @@
+.signup-btn {
+  transform: skew(-21deg);
+}
+
+.signup-btn > span {
+  transform: skew(21deg);
+}
+.title-text{
+  font-size: 35px;
+  
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.text-container-for-faq{
+  max-width: 80%;
+  margin: 50px auto;
+}
+.carousel-image{
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.carousel-image>img{
+  height: 100%;
+}
+@media only screen and (max-width: 800px) {
+  .carousel-image{
+  
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  .carousel-image>img{
+    height: 100%;
+    width: 100%;
+  }
+}

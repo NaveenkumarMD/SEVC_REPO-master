@@ -1,0 +1,42 @@
+.mt-4{
+    margin-top: 40px;
+}
+.teamview{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--backgroundColor);
+}
+.table-view{
+    width: 700px;
+    margin: 20px;
+
+}
+.table-view>tr{
+    margin-top: 40px;
+   
+}
+.field-label{
+    font-size: 16px;
+    color: var(--primaryGreen);
+    padding: 8px;
+}
+.field-value{
+    font-size: 16px;
+    color: rgb(180, 176, 176);
+}
+.query-btn{
+    display: flex;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .table-view{
+        width: 100%;
+        margin: 0px;
+    }
+
+}

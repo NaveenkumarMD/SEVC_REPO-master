@@ -1,0 +1,39 @@
+.container{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.text{
+    color: white !important;
+    z-index: 900;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    animation: move-text 10s linear infinite;
+
+}
+@media screen and (max-width: 600px) {
+  .text{
+    animation: move-textmobile 15s linear infinite;
+  }
+}
+@keyframes move-text {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(230%);
+    }
+  }
+@keyframes move-textmobile {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
